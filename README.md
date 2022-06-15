@@ -48,4 +48,4 @@ The Pill element displays information or status about a process.
 ### 🗃 rui-select
 ### 🥂 rui-toast
 ### 💡 rui-toggle
-### rui-tooltip
+### 🛠 rui-tooltip
