@@ -44,7 +44,7 @@ The Pill element displays information or status about a process.
 |iconBefore | icon-before | Default version - sets the icon to appear before the label | boolean | true
 |iconAfter | icon-after | Sets the icon to appear after the label | boolean | undefined
 | color | color | Sets the global color of the pill | string | undefined
-### rui-radio
+### 📻 rui-radio
 ### rui-select
 ### rui-toast
 ### rui-toggle
