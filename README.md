@@ -30,7 +30,7 @@ The Avatar element displays information from a user in the form of an image if a
 ### 🃏 rui-card
 ### ✅ rui-checkbox
 ### 💬 rui-input
-### rui-loader
+### ⏲ rui-loader
 ### rui-modal
 ### 💊 rui-pill
 The Pill element displays information or status about a process.
