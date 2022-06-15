@@ -46,6 +46,6 @@ The Pill element displays information or status about a process.
 | color | color | Sets the global color of the pill | string | undefined
 ### 📻 rui-radio
 ### 🗃 rui-select
-### rui-toast
+### 🥂 rui-toast
 ### rui-toggle
 ### rui-tooltip
