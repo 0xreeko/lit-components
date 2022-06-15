@@ -25,13 +25,83 @@ If this project helps/has helped you build your Web3 projects faster, star us - 
 
 
 ### 👤 rui-avatar
-The Avatar element displays information from a user in the form of an image if available, and displaying the initials of the user if the user's image is not available. 
+The Avatar element displays information from a user in the form of an image if available, and displaying the initials of the user if the user's image is not available.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### ⌨️ rui-button
+The Button element.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### 🃏 rui-card
+The Card element displays information.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### ✅ rui-checkbox
+The Checkbox element displays checked elements.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+color | color | abac | string
+labelAfter | label-after | abac | string
+labelBefore| label-before | abac | string
+name | name | abac | string
+
 ### 💬 rui-input
+The Input element allows data input.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
+
 ### ⏲ rui-loader
+The Loader element.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### 🪟 rui-modal
+The Modal element.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### 💊 rui-pill
 The Pill element displays information or status about a process.
 
@@ -44,8 +114,58 @@ The Pill element displays information or status about a process.
 |iconBefore | icon-before | Default version - sets the icon to appear before the label | boolean | true
 |iconAfter | icon-after | Sets the icon to appear after the label | boolean | undefined
 | color | color | Sets the global color of the pill | string | undefined
+
 ### 📻 rui-radio
+The Radio element.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### 🗃 rui-select
+The Select element.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### 🥂 rui-toast
+The Toast element.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### 💡 rui-toggle
+The Toggle element.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
+
 ### 🛠 rui-tooltip
+The Tooltip element.
+
+#### Props
+| Property    | Attribute    | Description | Type     | Default     |
+| ----------- | ------------ | ----------- | -------- | ----------- |
+elemName | elem-name | abac | string
+floatingLabel | floating-label | abac | string
+label | label | abac | string
+placeholder | placeholder | abac | string
