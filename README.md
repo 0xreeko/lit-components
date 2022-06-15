@@ -28,7 +28,7 @@ If this project helps/has helped you build your Web3 projects faster, star us - 
 The Avatar element displays information from a user in the form of an image if available, and displaying the initials of the user if the user's image is not available. 
 ### ⌨️ rui-button
 ### 🃏 rui-card
-### rui-checkbox
+### ✅ rui-checkbox
 ### rui-input
 ### rui-loader
 ### rui-modal
