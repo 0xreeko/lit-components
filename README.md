@@ -9,6 +9,7 @@ If this project helps/has helped you build your Web3 projects faster, star us - 
 
 
 ## 🧩 Table Of Components
+- [⬇ Installation: `<installation/>`](#installation)
 - [👤 Avatar: `<rui-avatar/>`](#rui-avatar)
 - [⌨️ Button: `<rui-button/>`](#rui-button)
 - [🃏 Card: `<rui-card/>`](#rui-card)
@@ -24,7 +25,11 @@ If this project helps/has helped you build your Web3 projects faster, star us - 
 - [🛠 Tooltip: `<rui-tooltip/>`](#rui-tooltip)
 
 
-### 👤 rui-avatar
+### installation
+This is the process to install RuskelUI components. TBC.
+
+
+### rui-avatar
 The Avatar element displays information from a user in the form of an image if available, and displaying the initials of the user if the user's image is not available.
 
 #### Props
@@ -35,7 +40,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### ⌨️ rui-button
+### rui-button
 The Button element.
 
 #### Props
@@ -46,7 +51,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### 🃏 rui-card
+### rui-card
 The Card element displays information.
 
 #### Props
@@ -57,7 +62,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### ✅ rui-checkbox
+### rui-checkbox
 The Checkbox element displays checked elements.
 
 #### Props
@@ -68,7 +73,7 @@ labelAfter | label-after | abac | string
 labelBefore| label-before | abac | string
 name | name | abac | string
 
-### 💬 rui-input
+### rui-input
 The Input element allows data input.
 
 #### Props
@@ -80,7 +85,7 @@ label | label | abac | string
 placeholder | placeholder | abac | string
 
 
-### ⏲ rui-loader
+### rui-loader
 The Loader element.
 
 #### Props
@@ -91,7 +96,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### 🪟 rui-modal
+### rui-modal
 The Modal element.
 
 #### Props
@@ -102,7 +107,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### 💊 rui-pill
+### rui-pill
 The Pill element displays information or status about a process.
 
 #### Props
@@ -115,7 +120,7 @@ The Pill element displays information or status about a process.
 |iconAfter | icon-after | Sets the icon to appear after the label | boolean | undefined
 | color | color | Sets the global color of the pill | string | undefined
 
-### 📻 rui-radio
+### rui-radio
 The Radio element.
 
 #### Props
@@ -126,7 +131,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### 🗃 rui-select
+### rui-select
 The Select element.
 
 #### Props
@@ -137,7 +142,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### 🥂 rui-toast
+### rui-toast
 The Toast element.
 
 #### Props
@@ -148,7 +153,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### 💡 rui-toggle
+### rui-toggle
 The Toggle element.
 
 #### Props
@@ -159,7 +164,7 @@ floatingLabel | floating-label | abac | string
 label | label | abac | string
 placeholder | placeholder | abac | string
 
-### 🛠 rui-tooltip
+### rui-tooltip
 The Tooltip element.
 
 #### Props
