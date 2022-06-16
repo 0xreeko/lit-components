@@ -1,0 +1,155 @@
+:host {
+    --amethyst-50: #f7f7ff;
+    --amethyst-100: #f0efff;
+    --amethyst-200: #d9d6ff;
+    --amethyst-300: #c1bdff;
+    --amethyst-400: #938cff;
+    --amethyst-500: #655bff;
+    --amethyst-600: #5b52e6;
+    --amethyst-700: #4c44bf;
+    --amethyst-800: #3d3799;
+    --amethyst-900: #312d7d;
+
+    --aqua-50: #f2fdff;
+    --aqua-100: #e6fbff;
+    --aqua-200: #bff6ff;
+    --aqua-300: #99f0ff;
+    --aqua-400: #4de4ff;
+    --aqua-500: #00d9ff;
+    --aqua-600: #00c3e6;
+    --aqua-700: #00a3bf;
+    --aqua-800: #008299;
+    --aqua-900: #006a7d;
+
+    --azure-50: #f2f8ff;
+    --azure-100: #e6f1ff;
+    --azure-200: #bfddff;
+    --azure-300: #99c9ff;
+    --azure-400: #4da0ff;
+    --azure-500: #0077ff;
+    --azure-600: #006be6;
+    --azure-700: #0059bf;
+    --azure-800: #004799;
+    --azure-900: #003a7d;
+
+    --jade-50: #fcfff2;
+    --jade-100: #f8ffe6;
+    --jade-200: #eeffbf;
+    --jade-300: #e4ff99;
+    --jade-400: #cfff4d;
+    --jade-500: #bbff00;
+    --jade-600: #a8e600;
+    --jade-700: #8cbf00;
+    --jade-800: #709900;
+    --jade-900: #5c7d00;
+
+    --jasper-50: #fffdf2;
+    --jasper-100: #fffae6;
+    --jasper-200: #fff3bf;
+    --jasper-300: #ffec99;
+    --jasper-400: #ffde4d;
+    --jasper-500: #ffd000;
+    --jasper-600: #e6bb00;
+    --jasper-700: #bf9c00;
+    --jasper-800: #997d00;
+    --jasper-900: #7d6600;
+
+    --kunzite-50: #FAF8FF;
+    --kunzite-100: #F6F0FF;
+    --kunzite-200: #E8DAFF;
+    --kunzite-300: #DBC4FF;
+    --kunzite-400: #BF98FF;
+    --kunzite-500: #A46CFF;
+    --kunzite-600: #9461E6;
+    --kunzite-700: #7B51BF;
+    --kunzite-800: #624199; 
+    --kunzite-900: #50357D;
+    
+    --moonstone-50: #FFFEFD;
+    --moonstone-100: #FEFDFB;
+    --moonstone-200: #FDF9F4;
+    --moonstone-300: #FBF5ED;
+    --moonstone-400: #F9EEE0;
+    --moonstone-500: #F6E7D2;
+    --moonstone-600: #DDD0BD;
+    --moonstone-700: #B9AD9E;
+    --moonstone-800: #948B7E;
+    --moonstone-900: #797167;
+    
+    --peridot-50: #f6fff2;
+    --peridot-100: #eeffe6;
+    --peridot-200: #d4ffbf;
+    --peridot-300: #b9ff99;
+    --peridot-400: #85ff4d;
+    --peridot-500: #51ff00;
+    --peridot-600: #49e600;
+    --peridot-700: #3dbf00;
+    --peridot-800: #319900;
+    --peridot-900: #287d00;
+    
+    --ruby-50: #fff2f8;
+    --ruby-100: #ffe6f0;
+    --ruby-200: #ffbfda;
+    --ruby-300: #ff99c3;
+    --ruby-400: #ff4d97;
+    --ruby-500: #ff006a;
+    --ruby-600: #e6005f;
+    --ruby-700: #bf0050;
+    --ruby-800: #990040;
+    --ruby-900: #7d0034;
+    
+    --russian-50: #f3f3f4;
+    --russian-100: #e7e7e9;
+    --russian-200: #c2c3c9;
+    --russian-300: #9e9fa9;
+    --russian-400: #555768;
+    --russian-500: #0c0f27;
+    --russian-600: #0b0e23;
+    --russian-700: #090b1d;
+    --russian-800: #070917;
+    --russian-900: #060713;
+    
+    --scarlet-50: #fff2f4;
+    --scarlet-100: #ffe6e9;
+    --scarlet-200: #ffbfc8;
+    --scarlet-300: #ff99a7;
+    --scarlet-400: #ff4d65;
+    --scarlet-500: #ff0023;
+    --scarlet-600: #e60020;
+    --scarlet-700: #bf001a;
+    --scarlet-800: #990015;
+    --scarlet-900: #7d0011;
+    
+    --stratos-50: #f3f3f5;
+    --stratos-100: #e7e7ec;
+    --stratos-200: #c4c2cf;
+    --stratos-300: #a09db2;
+    --stratos-400: #595478;
+    --stratos-500: #120a3e;
+    --stratos-600: #100938;
+    --stratos-700: #0e082f;
+    --stratos-800: #0b0625;
+    --stratos-900: #09051e;
+    
+    --sunstone-50: #fffbf4;
+    --sunstone-100: #fff6e9;
+    --sunstone-200: #ffe9c9;
+    --sunstone-300: #ffdca8;
+    --sunstone-400: #ffc266;
+    --sunstone-500: #ffa825;
+    --sunstone-600: #e69721;
+    --sunstone-700: #bf7e1c;
+    --sunstone-800: #996516;
+    --sunstone-900: #7d5212;
+    
+    --sylver-50: #fefefe;
+    --sylver-100: #fcfdfe;
+    --sylver-200: #f8f9fb;
+    --sylver-300: #f3f6f9;
+    --sylver-400: #ebeff5;
+    --sylver-500: #e2e8f0;
+    --sylver-600: #cbd1d8;
+    --sylver-700: #aaaeb4;
+    --sylver-800: #888b90;
+    --sylver-900: #6f7276;
+}
