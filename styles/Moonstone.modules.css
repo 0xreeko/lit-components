@@ -1,15 +1,3 @@
-moonstone: {
-    '50': '#FFFEFD', 
-    '100': '#FEFDFB', 
-    '200': '#FDF9F4', 
-    '300': '#FBF5ED', 
-    '400': '#F9EEE0', 
-    '500': '#F6E7D2', 
-    '600': '#DDD0BD', 
-    '700': '#B9AD9E', 
-    '800': '#948B7E', 
-    '900': '#797167'
-  }
 --moonstone-50{
     color: #FFFEFD;
 }
