@@ -1,0 +1,17 @@
+.pill {
+        font-family: 'Roboto', sans-serif;
+        display: inline-block;
+        padding: 0.125rem 0.5rem;
+        width: fit-content;
+        font-weight: 700;
+        user-select: none;
+        border-radius: 8px;
+        font-size: 0.579rem;
+        background-color: rgb(237 25 74 / 0.2);
+        color: #ed194a;
+        letter-spacing: 0.05rem;
+        transition-duration: 300ms;
+    }
+    .pill :hover {
+        color: #ef416a;
+    }

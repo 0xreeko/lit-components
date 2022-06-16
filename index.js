@@ -14,15 +14,19 @@ class Pill extends HTMLElement {
 
     connectedCallback(){
         this.render()
+        this.addCssDynamic();
+    }
+
+    addCssDynamic() {
+        const linkElem = document.createElement('link');
+        linkElem.setAttribute('rel', 'stylesheet');
+        linkElem.setAttribute('href', 'styles/Global.modules.css');
+        this.shadowRoot.appendChild(linkElem);
     }
 
     render(){
-        this.shadowRoot.innerHTML = `
-        <style>
-        @import "styles/Pill.modules.css";
-        
-      </style>
-        <div class="pill bg-green-500/20 font-bold text-green-500 duration-300 hover:text-green-400 select-none w-fit px-2 py-0.5 text-[9.26px] rounded-[8px]">
+        this.shadowRoot.innerHTML = `   
+        <div class="pill">
             <div class="flex items-center">
                 <span class="h-1 w-1 mr-1 rounded-full bg-green-500"></span>
                 <slot name="icon"></slot>

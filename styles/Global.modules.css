@@ -1,441 +1,184 @@
-:host {
+:root {
     --base-radius: 32%;
     --rounded-sm: 8px;
     --rounded-md: 10px;
     --rounded-lg: 12px;
     --rounded-full: 100%;
-}
+    --text-size: 0.579rem;
+    /* colors */
+    --amethyst-50: 247, 247, 255;
+    --amethyst-100: #f0efff;
+    --amethyst-200: #d9d6ff;
+    --amethyst-300: #c1bdff;
+    --amethyst-400: #938cff;
+    --amethyst-500: #655bff;
+    --amethyst-600: #5b52e6;
+    --amethyst-700: #4c44bf;
+    --amethyst-800: #3d3799;
+    --amethyst_900: 49, 45, 125;
 
---amethyst-50{
-    color: #f7f7ff;
-}
---amethyst-100{
-    color: #f0efff;
-}
---amethyst-200{
-    color: #d9d6ff;
-}
---amethyst-300{
-    color: #c1bdff;
-}
---amethyst-400{
-    color: #938cff;
-}
---amethyst-500{
-    color: #655bff;
-}
---amethyst-600{
-    color: #5b52e6;
-}
---amethyst-700{
-    color: #4c44bf;
-}
---amethyst-800{
-    color: #3d3799;
-}
---amethyst-900{
-    color: #312d7d;
-}
+    --aqua-50: #f2fdff;
+    --aqua-100: #e6fbff;
+    --aqua-200: #bff6ff;
+    --aqua-300: #99f0ff;
+    --aqua-400: #4de4ff;
+    --aqua-500: #00d9ff;
+    --aqua-600: #00c3e6;
+    --aqua-700: #00a3bf;
+    --aqua-800: #008299;
+    --aqua-900: #006a7d;
 
---aqua-50{
-    color: #f2fdff;
-}
---aqua-100{
-    color: #e6fbff;
-}
---aqua-200{
-    color: #bff6ff;
-}
---aqua-300{
-    color: #99f0ff;
-}
---aqua-400{
-    color: #4de4ff;
-}
---aqua-500{
-    color: #00d9ff;
-}
---aqua-600{
-    color: #00c3e6;
-}
---aqua-700{
-    color: #00a3bf;
-}
---aqua-800{
-    color: #008299;
-}
---aqua-900{
-    color: #006a7d;
-}
+    --azure-50: #f2f8ff;
+    --azure-100: #e6f1ff;
+    --azure-200: #bfddff;
+    --azure-300: #99c9ff;
+    --azure-400: #4da0ff;
+    --azure-500: #0077ff;
+    --azure-600: #006be6;
+    --azure-700: #0059bf;
+    --azure-800: #004799;
+    --azure-900: #003a7d;
 
---azure-50{
-    color: #f2f8ff;
-}
---azure-100{
-    color: #e6f1ff;
-}
---azure-200{
-    color: #bfddff;
-}
---azure-300{
-    color: #99c9ff;
-}
---azure-400{
-    color: #4da0ff;
-}
---azure-500{
-    color: #0077ff;
-}
---azure-600{
-    color: #006be6;
-}
---azure-700{
-    color: #0059bf;
-}
---azure-800{
-    color: #004799;
-}
---azure-900{
-    color: #003a7d;
-}
+    --jade-50: #fcfff2;
+    --jade-100: #f8ffe6;
+    --jade-200: #eeffbf;
+    --jade-300: #e4ff99;
+    --jade-400: #cfff4d;
+    --jade-500: #bbff00;
+    --jade-600: #a8e600;
+    --jade-700: #8cbf00;
+    --jade-800: #709900;
+    --jade-900: #5c7d00;
 
---jade-50{
-    color: #fcfff2;
-}
---jade-100{
-    color: #f8ffe6;
-}
---jade-200{
-    color: #eeffbf;
-}
---jade-300{
-    color: #e4ff99;
-}
---jade-400{
-    color: #cfff4d;
-}
---jade-500{
-    color: #bbff00;
-}
---jade-600{
-    color: #a8e600;
-}
---jade-700{
-    color: #8cbf00;
-}
---jade-800{
-    color: #709900;
-}
---jade-900{
-    color: #5c7d00;
-}
+    --jasper-50: #fffdf2;
+    --jasper-100: #fffae6;
+    --jasper-200: #fff3bf;
+    --jasper-300: #ffec99;
+    --jasper-400: #ffde4d;
+    --jasper-500: #ffd000;
+    --jasper-600: #e6bb00;
+    --jasper-700: #bf9c00;
+    --jasper-800: #997d00;
+    --jasper-900: #7d6600;
 
---jasper-50{
-    color: #fffdf2;
-}
---jasper-100{
-    color: #fffae6;
-}
---jasper-200{
-    color: #fff3bf;
-}
---jasper-300{
-    color: #ffec99;
-}
---jasper-400{
-    color: #ffde4d;
-}
---jasper-500{
-    color: #ffd000;
-}
---jasper-600{
-    color: #e6bb00;
-}
---jasper-700{
-    color: #bf9c00;
-}
---jasper-800{
-    color: #997d00;
-}
---jasper-900{
-    color: #7d6600;
-}
+    --kunzite-50: #FAF8FF;
+    --kunzite-100: #F6F0FF;
+    --kunzite-200: #E8DAFF;
+    --kunzite-300: #DBC4FF;
+    --kunzite-400: #BF98FF;
+    --kunzite-500: #A46CFF;
+    --kunzite-600: #9461E6;
+    --kunzite-700: #7B51BF;
+    --kunzite-800: #624199; 
+    --kunzite-900: #50357D;
+    
+    --moonstone-50: #FFFEFD;
+    --moonstone-100: #FEFDFB;
+    --moonstone-200: #FDF9F4;
+    --moonstone-300: #FBF5ED;
+    --moonstone-400: #F9EEE0;
+    --moonstone-500: #F6E7D2;
+    --moonstone-600: #DDD0BD;
+    --moonstone-700: #B9AD9E;
+    --moonstone-800: #948B7E;
+    --moonstone-900: #797167;
+    
+    --peridot-50: #f6fff2;
+    --peridot-100: #eeffe6;
+    --peridot-200: #d4ffbf;
+    --peridot-300: #b9ff99;
+    --peridot-400: #85ff4d;
+    --peridot-500: #51ff00;
+    --peridot-600: #49e600;
+    --peridot-700: #3dbf00;
+    --peridot-800: #319900;
+    --peridot-900: #287d00;
+    
+    --ruby-50: #fff2f8;
+    --ruby-100: #ffe6f0;
+    --ruby-200: #ffbfda;
+    --ruby-300: #ff99c3;
+    --ruby-400: #ff4d97;
+    --ruby-500: #ff006a;
+    --ruby-600: #e6005f;
+    --ruby-700: #bf0050;
+    --ruby-800: #990040;
+    --ruby-900: #7d0034;
+    
+    --russian-50: #f3f3f4;
+    --russian-100: #e7e7e9;
+    --russian-200: #c2c3c9;
+    --russian-300: #9e9fa9;
+    --russian-400: #555768;
+    --russian-500: #0c0f27;
+    --russian-600: #0b0e23;
+    --russian-700: #090b1d;
+    --russian-800: #070917;
+    --russian-900: #060713;
+    
+    --scarlet-50: #fff2f4;
+    --scarlet-100: #ffe6e9;
+    --scarlet-200: #ffbfc8;
+    --scarlet-300: #ff99a7;
+    --scarlet-400: #ff4d65;
+    --scarlet-500: #ff0023;
+    --scarlet-600: #e60020;
+    --scarlet-700: #bf001a;
+    --scarlet-800: #990015;
+    --scarlet-900: #7d0011;
+    
+    --stratos-50: #f3f3f5;
+    --stratos-100: #e7e7ec;
+    --stratos-200: #c4c2cf;
+    --stratos-300: #a09db2;
+    --stratos-400: #595478;
+    --stratos-500: #120a3e;
+    --stratos-600: #100938;
+    --stratos-700: #0e082f;
+    --stratos-800: #0b0625;
+    --stratos-900: #09051e;
+    
+    --sunstone-50: #fffbf4;
+    --sunstone-100: #fff6e9;
+    --sunstone-200: #ffe9c9;
+    --sunstone-300: #ffdca8;
+    --sunstone-400: #ffc266;
+    --sunstone-500: #ffa825;
+    --sunstone-600: #e69721;
+    --sunstone-700: #bf7e1c;
+    --sunstone-800: #996516;
+    --sunstone-900: #7d5212;
+    
+    --sylver-50: #fefefe;
+    --sylver-100: #fcfdfe;
+    --sylver-200: #f8f9fb;
+    --sylver-300: #f3f6f9;
+    --sylver-400: #ebeff5;
+    --sylver-500: #e2e8f0;
+    --sylver-600: #cbd1d8;
+    --sylver-700: #aaaeb4;
+    --sylver-800: #888b90;
+    --sylver-900: #6f7276;
 
---kunzite-50{
-    color: #FAF8FF;
-}
---kunzite-100{
-    color: #F6F0FF;
-}
---kunzite-200{
-    color: #E8DAFF;
-}
---kunzite-300{
-    color: #DBC4FF;
-}
---kunzite-400{
-    color: #BF98FF;
-}
---kunzite-500{
-    color: #A46CFF;
-}
---kunzite-600{
-    color: #9461E6;
-}
---kunzite-700{
-    color: #7B51BF;
-}
---kunzite-800{
-    color: #624199;
-}
---kunzite-900{
-    color: #50357D;
-}
+}   
 
---moonstone-50{
-    color: #FFFEFD;
-}
---moonstone-100{
-    color: #FEFDFB;
-}
---moonstone-200{
-    color: #FDF9F4;
-}
---moonstone-300{
-    color: #FBF5ED;
-}
---moonstone-400{
-    color: #F9EEE0;
-}
---moonstone-500{
-    color: #F6E7D2;
-}
---moonstone-600{
-    color: #DDD0BD;
-}
---moonstone-700{
-    color: #B9AD9E;
-}
---moonstone-800{
-    color: #948B7E;
-}
---moonstone-900{
-    color: #797167;
-}
 
---peridot-50{
-    color: #f6fff2;
+    /* components */
+div.pill {
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    transform: 300ms;
+    padding: 0.125rem 0.5rem;
+    width: fit-content;
+    font-weight: 700;
+    user-select: none;
+    border-radius: 8px;
+    font-size: 0.579rem;
+    background-color: var(--aqua-400);
+    color: var( --ruby-500);
+    letter-spacing: 0.05rem;
 }
---peridot-100{
-    color: #eeffe6;
+.pill :hover {
+    color: var(--ruby-600);
 }
---peridot-200{
-    color: #d4ffbf;
-}
---peridot-300{
-    color: #b9ff99;
-}
---peridot-400{
-    color: #85ff4d;
-}
---peridot-500{
-    color: #51ff00;
-}
---peridot-600{
-    color: #49e600;
-}
---peridot-700{
-    color: #3dbf00;
-}
---peridot-800{
-    color: #319900;
-}
---peridot-900{
-    color: #287d00;
-}
-
---ruby-scarlet-50{
-    color: #fff2f8;
-}
---ruby-scarlet-100{
-    color: #ffe6f0;
-}
---ruby-scarlet-200{
-    color: #ffbfda;
-}
---ruby-scarlet-300{
-    color: #ff99c3;
-}
---ruby-scarlet-400{
-    color: #ff4d97;
-}
---ruby-scarlet-500{
-    color: #ff006a;
-}
---ruby-scarlet-600{
-    color: #e6005f;
-}
---ruby-scarlet-700{
-    color: #bf0050;
-}
---ruby-scarlet-800{
-    color: #990040;
-}
---ruby-scarlet-900{
-    color: #7d0034;
-}
-
---russian-50{
-    color: #f3f3f4;
-}
---russian-100{
-    color: #e7e7e9;
-}
---russian-200{
-    color: #c2c3c9;
-}
---russian-300{
-    color: #9e9fa9;
-}
---russian-400{
-    color: #555768;
-}
---russian-500{
-    color: #0c0f27;
-}
---russian-600{
-    color: #0b0e23;
-}
---russian-700{
-    color: #090b1d;
-}
---russian-800{
-    color: #070917;
-}
---russian-900{
-    color: #060713;
-}
-
---scarlet-50{
-    color: #fff2f4;
-}
---scarlet-100{
-    color: #ffe6e9;
-}
---scarlet-200{
-    color: #ffbfc8;
-}
---scarlet-300{
-    color: #ff99a7;
-}
---scarlet-400{
-    color: #ff4d65;
-}
---scarlet-500{
-    color: #ff0023;
-}
---scarlet-600{
-    color: #e60020;
-}
---scarlet-700{
-    color: #bf001a;
-}
---scarlet-800{
-    color: #990015;
-}
---scarlet-900{
-    color: #7d0011;
-}
-
---stratos-50{
-    color: #f3f3f5;
-}
---stratos-100{
-    color: #e7e7ec;
-}
---stratos-200{
-    color: #c4c2cf;
-}
---stratos-300{
-    color: #a09db2;
-}
---stratos-400{
-    color: #595478;
-}
---stratos-500{
-    color: #120a3e;
-}
---stratos-600{
-    color: #100938;
-}
---stratos-700{
-    color: #0e082f;
-}
---stratos-800{
-    color: #0b0625;
-}
---stratos-900{
-    color: #09051e;
-}
-
---sunstone-50{
-    color: #fffbf4;
-}
---sunstone-100{
-    color: #fff6e9;
-}
---sunstone-200{
-    color: #ffe9c9;
-}
---sunstone-300{
-    color: #ffdca8;
-}
---sunstone-400{
-    color: #ffc266;
-}
---sunstone-500{
-    color: #ffa825;
-}
---sunstone-600{
-    color: #e69721;
-}
---sunstone-700{
-    color: #bf7e1c;
-}
---sunstone-800{
-    color: #996516;
-}
---sunstone-900{
-    color: #7d5212;
-}
-
---sylver-50{
-    color: #fefefe;
-  }
-    --sylver-100{
-        color: #fcfdfe;
-    }
-    --sylver-200{
-        color: #f8f9fb;
-    }
-    --sylver-300{
-        color: #f3f6f9;
-    }
-    --sylver-400{
-        color: #ebeff5;
-    }
-    --sylver-500{
-        color: #e2e8f0;
-    }
-    --sylver-600{
-        color: #cbd1d8;
-    }
-    --sylver-700{
-        color: #aaaeb4;
-    }
-    --sylver-800{
-        color: #888b90;
-    }
-    --sylver-900{
-        color: #6f7276;
-    }
